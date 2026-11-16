@@ -1,0 +1,167 @@
+body {
+  background-color: #1a1a1a;
+  color: #f2ead8;
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f2ead8;
+}
+
+a {
+  color: #c8a415;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a88510;
+}
+
+.erreur {
+  color: #e74c3c;
+  background: #2a1a1a;
+  border: 1px solid #e74c3c;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+}
+
+.succes {
+  color: #2ecc71;
+  background: #1a2a1a;
+  border: 1px solid #2ecc71;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+}
+
+.card {
+  background: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select {
+  background: #2a2a2a;
+  color: #f2ead8;
+  border: 1px solid #555;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+button,
+.btn {
+  background: #1a1a1a;
+  border: 1px solid #c8a415;
+  color: #c8a415;
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  margin: 5px 0;
+}
+
+button:hover,
+.btn:hover {
+  background: #a88510;
+  color: #1a1a1a;
+}
+
+.btn-secondary {
+  border: 1px solid #555;
+  color: #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 1.5rem 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #333;
+  color: #666;
+  font-size: 0.85em;
+}
+
+.lien-supprimer {
+  color: #e74c3c;
+}
+
+.date-small {
+  color: #666;
+  font-size: 0.85em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table th,
+table td {
+  border: 1px solid #333;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  color: #f2ead8;
+}
+
+table th {
+  background: #2a2a2a;
+  color: #c8a415;
+}
+
+table tr:nth-child(even) {
+  background: #1f1f1f;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+nav a {
+  font-size: 0.95rem;
+}

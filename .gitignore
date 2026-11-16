@@ -1,0 +1,14 @@
+# Fichiers de configuration
+config.php
+.env
+.env.*
+
+# Dependances Composer
+vendor/
+
+# Sauvegardes
+*.bak
+*.sql
+
+# Logs
+*.log
