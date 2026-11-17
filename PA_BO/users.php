@@ -2,9 +2,6 @@
 session_start();
 require_once "../config.php";
 
-$res=$conn->query(Select action['login'] COUNT(*) as nombre de connexion FROM log group by IP,DATE)
-$nb_connexion=$res->fetch_all(MYSQLI_ASSOC)
-echo $nb_connexion
 
 if (!isset($_SESSION["loggedin"]) || $_SESSION["role"] != "admin") {
     header("Location: login.php");
